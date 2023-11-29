@@ -1,0 +1,185 @@
+*{
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+:root {
+   --main-color: #10cab7;
+}
+
+
+
+body{
+    font-family: 'Dancing Script', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+.parent{
+    background-color: white;
+
+  
+    
+}
+
+/* .logo{
+    margin-left: 100px;
+    margin-top:  0px;
+} */
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ .icon{
+    padding: 0 20px;
+} 
+.moham{
+ background-image: url(mount.jpg);
+ background-position: center center;
+background-size: cover;
+height: 100vh;
+ position: relative;
+ 
+
+
+}
+.moham .me {
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50% , -50%);
+text-align: center;
+width: 320px;
+max-width: 100%;
+
+
+}
+ .moham .me h2{
+    margin: 0;
+    color:var(--main-color);
+
+ }
+
+.conole{
+    padding-top: 60px;
+    padding-bottom: 60px;
+margin: auto;
+}
+.kemoo{
+    display: flex;
+    justify-content:space-evenly ;
+    align-items: center;
+}
+
+.conole .slmo i{
+    color: var(--main-color);
+   
+}
+.slmo{
+    text-align: center;
+}
+.special-heading{
+    color: #ebeced;
+  font-size: 100px;
+  text-align: center;
+  font-weight: 800px;
+  letter-spacing: -4px;
+  margin: 0;
+
+}
+.conttainer p{
+    margin: -30px 0px 0px;
+    text-align: center;
+color: #777;
+    font-size: 15px
+}
+.servive-content{
+    width: 500px;
+    background-color: bisque;
+}
+.services{
+    padding-top: 30px;
+    padding: bottom 30px; ;
+}
+.polo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.col{
+    flex-direction: column;
+    display: flex;
+    width: 400px;
+ 
+}
+
+.child{
+    display: flex;
+    justify-content: space-between;
+    align-items: first baseline;
+}
+
+.img img{
+    width: 300px;
+}
+
+.portfolio   p{
+    margin: -30px 0px 0px;
+    text-align: center;
+color: #777;
+    font-size: 15px
+
+
+}
+.components{
+    background-color:#e1dede;
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+}
+.port-services{
+    display: flex;
+    text-align: center;
+    padding: 15px;
+}
+.child2 p{
+    color: black;
+    padding: 10px;
+}
+.bop p{
+    margin: -30px 0px 0px;
+    text-align: center;
+    color: #777;
+        font-size: 15px
+}
+.child3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+
+
+.text1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+    font-size: 21px;
+}
+
+.img4{
+    margin-left: 50px;
+}
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+    width: 200px;
+    color: green;
+    font-weight: 100px;
+    font-weight: 200;
+    text-align: center;
+}  
